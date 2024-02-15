@@ -1,7 +1,7 @@
 .s1 {
   border: 1px solid rgb(207, 207, 207);
   height: 140px;
-  width: 235px;
+  flex-basis: 25%;
   margin: 15px;
   border-radius: 25px;
 }

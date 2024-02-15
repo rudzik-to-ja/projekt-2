@@ -1,7 +1,7 @@
 .section-2 {
   border: 1px solid rgb(207, 207, 207);
   height: 300px;
-  width: 805px;
+  flex-basis: 70%;
   margin: 15px;
   border-radius: 25px;
   background-image: url(/projekt-2/wektorki/Bez\ nazwy-1.png);

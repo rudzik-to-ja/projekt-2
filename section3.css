@@ -1,0 +1,29 @@
+.section-3 {
+  display: flex;
+}
+
+.s3 {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  z-index: -1;
+}
+
+li {
+  color: rgb(230, 230, 230);
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.section-3 h2 {
+  margin-bottom: 70px;
+}
+
+.chart1 {
+  background-color: rgb(165, 131, 89);
+  flex-basis: 1%;
+  height: 20px;
+  z-index: 5;
+}
