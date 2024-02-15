@@ -1,8 +1,8 @@
 .navbar {
   display: flex;
-  background-color: black;
+  background-color: #221700;
   flex-basis: 2%;
-  height: 92vh;
+  height: 90vh;
   margin: 10px;
   border-radius: 13px;
   padding: 15px;

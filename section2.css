@@ -1,0 +1,40 @@
+.section-2 {
+  border: 1px solid rgb(207, 207, 207);
+  height: 300px;
+  width: 805px;
+  margin: 15px;
+  border-radius: 25px;
+  background-image: url(/projekt-2/wektorki/Bez\ nazwy-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex-direction: column;
+  display: flex;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+.section-2 > button {
+  width: 90px;
+  height: 40px;
+  color: #442f00;
+  background-color: white;
+  border-radius: 40px;
+  border: none;
+  margin-top: 60px;
+}
+
+.section-2 > h2 {
+  color: white;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.section-2 > span {
+  color: #85795e;
+  margin: 0;
+  padding: 0;
+}

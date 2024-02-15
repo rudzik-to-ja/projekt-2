@@ -1,20 +1,27 @@
 .searchbar {
   display: flex;
-  justify-content: center;
-  justify-content: space-between;
   margin-top: 10px;
   height: 30px;
   align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin-right: 50px;
 }
 
 input {
   border: none;
-  display: flex;
-  width: 500px;
+  width: 800px;
   z-index: 0, 0, 0;
+  bottom: 10px;
+  position: relative;
+  top: -7px;
 }
 
-.more {
+input:focus {
+  outline: none;
+}
+
+.moremore {
   height: 30px;
   display: flex;
   justify-content: center;
@@ -27,7 +34,7 @@ input {
   gap: 3px;
 }
 
-.more > span {
+.moremore > span {
   background-color: rgb(180, 180, 180);
   padding: 6px;
   border-radius: 50px;
@@ -40,13 +47,18 @@ input {
 
 .search {
   display: flex;
-  align-items: center;
+  height: 5px;
   flex-direction: row;
-  height: 30px;
-  justify-content: center;
 }
 
-.search > img {
-  height: 30px;
-  margin-top: 15px;
+.lupa {
+  width: 24px;
+  padding: 2px;
+  position: relative;
+  top: 3px;
+}
+
+.more {
+  display: flex;
+  gap: 15px;
 }
