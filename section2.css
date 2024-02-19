@@ -14,6 +14,7 @@
   display: flex;
   padding-top: 40px;
   box-sizing: border-box;
+  margin-right: 40px;
 }
 
 .section-2 > button {

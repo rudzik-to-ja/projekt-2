@@ -10,10 +10,16 @@
   justify-content: center;
   justify-content: space-between;
   flex-direction: column;
+  margin-right: 50px;
+  margin-left: 20px;
 }
 
 .navbar > div {
   display: flex;
   flex-direction: column;
   gap: 25px;
+}
+
+.navbar img {
+  height: 30px;
 }

@@ -1,7 +1,6 @@
 .main {
   display: flex;
   flex-basis: 100%;
-  margin-top: 70px;
   flex-direction: column;
   box-sizing: border-box;
 }
@@ -10,10 +9,22 @@
   flex-basis: 25%;
 }
 
+.section-2 {
+  flex-basis: 75%;
+  flex-grow: 1;
+}
+
+.section-3 {
+  flex-basis: 60%;
+  flex-grow: 1;
+}
+
 .top {
   display: flex;
+  flex-basis: 50%;
 }
 
 .bottom {
   display: flex;
+  flex-basis: 50%;
 }

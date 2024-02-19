@@ -2,3 +2,47 @@
   height: 70px;
   border-radius: 80px;
 }
+
+.section-4 {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.person {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.section-4 button {
+  width: 170px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.selected {
+  background-color: rgb(76, 60, 41);
+  color: white;
+}
+
+h5 {
+  margin: 0%;
+}
+
+.day {
+  color: rgb(146, 146, 146);
+  margin-top: 19px;
+}
+
+.barist-name {
+  margin: 15px;
+}
+
+.barist-name span {
+  color: rgb(146, 146, 146);
+}
