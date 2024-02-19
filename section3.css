@@ -1,29 +1,114 @@
 .section-3 {
   display: flex;
+  flex-direction: column;
 }
 
-.s3 {
-  list-style: none;
+.s3 > div {
+  background-image: url(/projekt-2/wektorki/Zrzut\ ekranu\ 2024-02-16\ 085201.png);
+  width: auto;
+  height: 260px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 80px;
+  padding-left: 60px;
+  padding-right: 30px;
 }
 
-ul {
-  list-style: none;
-  z-index: -1;
-}
-
-li {
-  color: rgb(230, 230, 230);
-  font-size: 20px;
-  margin-top: 30px;
+.s3 > div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-3 h2 {
   margin-bottom: 70px;
 }
 
-.chart1 {
-  background-color: rgb(165, 131, 89);
-  flex-basis: 1%;
-  height: 20px;
+.chart {
+  width: 60px;
+  background-color: rgb(76, 60, 41);
   z-index: 5;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+#c1 {
+  height: 100px;
+  opacity: 0.5;
+}
+
+#c11 {
+  height: 100px;
+}
+
+#c2 {
+  height: 80px;
+  opacity: 0.5;
+}
+
+#c22 {
+  height: 80px;
+}
+
+#c3 {
+  height: 50px;
+  opacity: 0.5;
+}
+
+#c33 {
+  height: 50px;
+}
+
+#c4 {
+  height: 40px;
+  opacity: 0.5;
+}
+
+#c44 {
+  height: 40px;
+}
+
+#c5 {
+  height: 30px;
+  opacity: 0.5;
+}
+
+#c55 {
+  height: 30px;
+}
+
+[data-tooltip] {
+  position: relative;
+}
+
+[data-tooltip]::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  right: 50%;
+  bottom: 100%;
+  translate: -50%;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 0.8em;
+  background-color: rgb(76, 60, 41);
+  color: #fff;
+  border-radius: 0.5em;
+  padding: 0.25em;
+  z-index: 1;
+  transform: 0.7s;
+}
+
+[data-tooltip]:hover {
+  cursor: pointer;
+}
+
+[data-tooltip]:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+
+[data-tooltip]:active::before {
+  transition: 0.2s;
+  opacity: 0;
 }
