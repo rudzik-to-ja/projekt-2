@@ -9,7 +9,7 @@
 
 .s3 > div {
   background-image: url(/projekt-2/wektorki/Zrzut\ ekranu\ 2024-02-16\ 085201.png);
-  width: auto;
+  width: 900px;
   height: 260px;
   display: flex;
   flex-direction: row;
@@ -27,6 +27,7 @@
 
 .section-3 h2 {
   margin-bottom: 20px;
+  font-size: 40px;
 }
 
 .chart {

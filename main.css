@@ -1,4 +1,5 @@
 .main {
+  margin: 0%;
   display: flex;
   flex-basis: 100%;
   flex-direction: column;
@@ -7,6 +8,7 @@
 
 .section-1 {
   flex-basis: 25%;
+  flex-grow: 1;
 }
 
 .section-2 {
@@ -22,9 +24,11 @@
 .top {
   display: flex;
   flex-basis: 50%;
+  flex-grow: 1;
 }
 
 .bottom {
   display: flex;
   flex-basis: 50%;
+  flex-grow: 1;
 }
