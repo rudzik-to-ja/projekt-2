@@ -8,15 +8,18 @@
 }
 
 .s3 > div {
-  background-image: url(/projekt-2/wektorki/Zrzut\ ekranu\ 2024-02-16\ 085201.png);
-  width: 900px;
-  height: 260px;
+  /*background-image: url(/projekt-2/wektorki/Zrzut\ ekranu\ 2024-02-16\ 085201.png);*/
+  width: 54vw;
+  height: 27vh;
   display: flex;
   flex-direction: row;
   align-items: end;
-  gap: 80px;
-  padding-left: 60px;
-  padding-right: 30px;
+  gap: 6.5vw;
+}
+
+.section-3 h2 {
+  margin: 0%;
+  font-size: 2rem;
 }
 
 .s3 > div div {
@@ -25,63 +28,57 @@
   align-items: center;
 }
 
-.section-3 h2 {
-  margin-bottom: 20px;
-  font-size: 40px;
-}
-
 .chart {
-  width: 70px;
+  width: 4.7vw;
   background-color: rgb(76, 60, 41);
-  z-index: 5;
-  border-radius: 10px;
+  border-radius: 1rem;
   margin: 2px;
   display: flex;
 }
 
 #c1 {
-  height: 100px;
+  height: 10.5vh;
   opacity: 0.5;
 }
 
 #c11 {
-  height: 100px;
+  height: 10.5vh;
 }
 
 #c2 {
-  height: 80px;
+  height: 9vh;
   opacity: 0.5;
 }
 
 #c22 {
-  height: 80px;
+  height: 9vh;
 }
 
 #c3 {
-  height: 50px;
+  height: 7.5vh;
   opacity: 0.5;
 }
 
 #c33 {
-  height: 50px;
+  height: 7.5vh;
 }
 
 #c4 {
-  height: 40px;
+  height: 5vh;
   opacity: 0.5;
 }
 
 #c44 {
-  height: 40px;
+  height: 5vh;
 }
 
 #c5 {
-  height: 30px;
+  height: 3.6vh;
   opacity: 0.5;
 }
 
 #c55 {
-  height: 30px;
+  height: 3.6vh;
 }
 
 [data-tooltip] {
@@ -117,4 +114,8 @@
 [data-tooltip]:active::before {
   transition: 0.2s;
   opacity: 0;
+}
+
+.Coffes {
+  padding-top: 5vh;
 }

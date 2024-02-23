@@ -4,7 +4,7 @@
   flex-basis: 3%;
   height: 90vh;
   margin: 10px;
-  border-radius: 13px;
+  border-radius: 1.3rem;
   padding: 15px;
   align-items: center;
   justify-content: center;
@@ -22,4 +22,20 @@
 
 .navbar img {
   height: 35px;
+}
+
+.mini_navbar {
+  display: flex;
+  background-color: #221700;
+  height: 5vh;
+  border-radius: 1.3rem;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.mini_navbar img {
+  height: 4.5vh;
 }

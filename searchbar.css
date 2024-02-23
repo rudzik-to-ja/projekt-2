@@ -1,17 +1,17 @@
 .searchbar {
   display: flex;
-  margin-top: 5px;
-  height: 30px;
+  height: 3vh;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
   margin-right: 50px;
   margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 input {
   border: none;
-  width: 800px;
+  width: 80vw;
   z-index: 0, 0, 0;
   bottom: 10px;
   position: relative;
